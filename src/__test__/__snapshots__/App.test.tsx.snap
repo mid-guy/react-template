@@ -6,9 +6,85 @@ exports[`toUpperCase 1`] = `
     class="w-screen h-screen bg-neutral-950 flex items-center justify-center text-neutral-100"
   >
     <div
-      class="w-96 bg-neutral-800 p-4 rounded-lg"
+      class="w-96 h-96 bg-[#303030] p-4 rounded-lg"
     >
-      // Your component go here
+      <div
+        class="flex w-[246px] justify-between items-center mb-4"
+      >
+        <span
+          class="text-lg text-[#AAAAAA]"
+        >
+          Unit
+        </span>
+        <div
+          class="flex gap-[2px] w-[140px] bg-[#212121] rounded-[4px] border-2 border-[#212121]"
+        >
+          <button
+            class="flex items-center justify-center cursor-pointer w-[67px] h-[32px] p-2 bg-[#212121] hover:bg-[#424242] transition-all duration-150 rounded-[4px] bg-[#424242] text-[#F9F9F9]"
+            type="button"
+          >
+            <span>
+              %
+            </span>
+          </button>
+          <button
+            class="flex items-center justify-center cursor-pointer w-[67px] h-[32px] p-2 bg-[#212121] hover:bg-[#424242] transition-all duration-150 rounded-[4px] text-[#AAAAAA]"
+            type="button"
+          >
+            <span>
+              px
+            </span>
+          </button>
+        </div>
+      </div>
+      <div
+        class="flex w-[246px] justify-between items-center"
+      >
+        <span
+          class="text-lg text-[#AAAAAA]"
+        >
+          Value
+        </span>
+        <div
+          class="flex w-[140px] bg-[#212121] has-[input:hover]:not-[:has(input:focus)]:bg-[#3B3B3B] has-[input:focus]:border-blue-500 rounded-[4px] overflow-hidden border border-transparent transition-all duration-150"
+        >
+          <div
+            class="relative inline-block"
+          >
+            <div>
+              <button
+                class="flex items-center justify-center cursor-pointer w-[34px] h-[34px] p-2 hover:bg-[#3B3B3B] transition-all duration-150"
+                disabled=""
+                type="button"
+              >
+                <img
+                  alt="increment-svg-icon"
+                  src="data:image/svg+xml,%3csvg%20width='12'%20height='2'%20viewBox='0%200%2012%202'%20fill='currentColor'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M0%200.75C0%200.335786%200.335786%200%200.75%200L11.25%200C11.6642%200%2012%200.335786%2012%200.75C12%201.16421%2011.6642%201.5%2011.25%201.5H0.75C0.335786%201.5%200%201.16421%200%200.75Z'%20fill='%23F9F9F9'/%3e%3c/svg%3e"
+                />
+              </button>
+            </div>
+          </div>
+          <input
+            class="flex-1 min-w-0 text-center outline-0 flex-1 min-w-0 text-center outline-0 bg-transparent"
+            value="0"
+          />
+          <div
+            class="relative inline-block"
+          >
+            <div>
+              <button
+                class="flex items-center justify-center cursor-pointer w-[34px] h-[34px] p-2 hover:bg-[#3B3B3B] transition-all duration-150"
+                type="button"
+              >
+                <img
+                  alt="increment-svg-icon"
+                  src="data:image/svg+xml,%3csvg%20width='12'%20height='12'%20viewBox='0%200%2012%2012'%20fill='currentColor'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M6.75%200.75C6.75%200.335786%206.41421%200%206%200C5.58579%200%205.25%200.335786%205.25%200.75V5.25H0.75C0.335786%205.25%200%205.58579%200%206C0%206.41421%200.335786%206.75%200.75%206.75H5.25L5.25%2011.25C5.25%2011.6642%205.58579%2012%206%2012C6.41421%2012%206.75%2011.6642%206.75%2011.25V6.75H11.25C11.6642%206.75%2012%206.41421%2012%206C12%205.58579%2011.6642%205.25%2011.25%205.25H6.75V0.75Z'%20fill='%23F9F9F9'/%3e%3c/svg%3e"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </DocumentFragment>
